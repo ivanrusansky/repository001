@@ -1,0 +1,112 @@
+/* color,tamaño de elementos y fuentes */
+
+body div h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+}
+
+header nav ul li{
+list-style: none;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+body div h1 {
+display: none;
+}
+
+footer h1 {
+    display: none;
+}
+
+footer h6 a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.acerca_title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+body p{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.frase_contacto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+footer{
+    background-color: rgba(7, 7, 7, 0);
+}
+
+
+
+.fondo_index{
+    background-image:url(../img/fondoindex/fondoindex.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.info_contact {
+    padding: 0cm;
+    background-color: #161616;
+    color:rgb(255, 255, 255);
+}
+
+/* posicionamiento de objetos */
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+    margin-right: 150px;
+
+}
+
+main {
+    display:flex;
+justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* estructuracion de servicios */
+
+body section {
+    display: flex;
+}
+
