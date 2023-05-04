@@ -1,7 +1,14 @@
-/* color,tamaño de elementos y fuentes */
+/* color,tamaño de elementos */
+
+.display-3 {
+    margin-top: -3%;
+}
+
+.display-4 {
+    font-size: small;
+}
 
 body div h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: rgb(255, 255, 255);
         font-size: 20px;
 }
@@ -14,12 +21,10 @@ list-style: none;
 header nav ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
 }
 
 p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
 }
 
@@ -31,30 +36,34 @@ footer h1 {
     display: none;
 }
 
-footer h6 a{
+.index_title {
+    display: none;
+}
+
+.proyectos_a {
+    display: none;
+}
+
+footer h2 a{
     text-decoration: none;
     color: rgb(252, 252, 252);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
 }
 
 .acerca_title{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
 body p{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
 }
 
 .frase_contacto {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
 }
 
 h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
 }
 
@@ -64,7 +73,8 @@ body{
 
 
 footer{
-    background-color: rgba(7, 7, 7, 0);
+    background-color: rgb(160, 160, 160);
+    justify-content: center;
 }
 
 
@@ -81,18 +91,23 @@ footer{
     color:rgb(255, 255, 255);
 }
 
-/* posicionamiento de objetos */
+.logo_small {
+        margin-top: 2%;
+        margin-left: 2%;
+}
+
+/* posicionamiento de objetos grales. */
 
 header nav ul {
     display: flex;
     justify-content: space-evenly;
     gap: 150px;
     margin-right: 150px;
-
+    margin-top: 3%;
 }
 
 main {
-    display:flex;
+
 justify-content: center;
 }
 
@@ -102,6 +117,52 @@ header {
     align-items: center;
 }
 
+.footer_positions {
+    justify-content:center;
+
+}
+
+.thing {
+    margin: 1%;
+}
+
+.footer_positions2 {
+    display: block;
+    margin-left: 40%;
+
+}
+
+
+/* estructuracion de index */
+
+.logo_inicial {
+display: block;
+margin: auto;
+margin-bottom: 15%;
+margin-top: 15%;
+}
+
+.iso {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+/* estructuracion de ada */
+
+.display-2 {
+    text-align: justify;
+    margin: 5%;
+    font-size: medium;
+    color: white;
+}
+
+.ada {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    }
+
 
 
 /* estructuracion de servicios */
@@ -109,4 +170,83 @@ header {
 body section {
     display: flex;
 }
+
+.display-5 {
+    display: flex;
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 100%;
+}
+ 
+.text_serv {
+    margin: 40px;
+}
+
+.text_servfix {
+    margin: 45px;
+
+}
+.img_serv {
+    display: block;
+    margin: auto;
+}
+
+.serv_subs {
+    display: block;
+    text-align:left;
+    font-size: larger;
+    position:relative;
+    left: 14%;
+}
+
+.serv_subsfix {
+    display: block;
+    text-align:left;
+    font-size: larger;
+    margin-left: 7%;
+
+}
+
+
+
+/* estructuracion de proyectos */
+
+.aside {
+    display: flex;
+}
+
+.proyectos_title {
+    display: none;
+}
+
+.proyecto_main {
+    margin-top: 2%;
+}
+
+.display-1 {
+    text-align: justify;
+    margin: 40px;
+    font-size: 98%;
+    font-weight: lighter;
+}
+
+.display-6 {
+display: block;
+margin-left: 5%;
+margin-top: 5%;
+margin: 5%;
+color: white;
+}
+
+/* estructuracion de contactos */
+
+.frase_contacto{
+    display: inline;
+}
+.info_contact {
+    display: block;
+}
+
+
+/* formato mobile */
 
