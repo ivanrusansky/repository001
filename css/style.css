@@ -2,7 +2,7 @@
 
 .display-3 {
     display: block;
-    margin-right: 6%;
+    margin-right: 0%;
     margin-bottom: -1%;
     margin-top: -2.5%;
    
@@ -98,7 +98,7 @@ footer{
 
 .logo_small {
         margin-top: 3%;
-        margin-left: 2%;
+        margin-left: 3%;
 }
 
 /* posicionamiento de objetos grales. */
@@ -148,8 +148,8 @@ margin-top: 15%;
 }
 
 .iso {
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-top: 2.5%;
+    margin-left: 3%;
 }
 
 /* estructuracion de ada */
