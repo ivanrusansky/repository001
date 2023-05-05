@@ -1,7 +1,12 @@
 /* color,tamaño de elementos */
 
 .display-3 {
-    margin-top: -3%;
+    display: block;
+    margin-right: 6%;
+    margin-bottom: -1%;
+    margin-top: -2.5%;
+   
+
 }
 
 .display-4 {
@@ -92,7 +97,7 @@ footer{
 }
 
 .logo_small {
-        margin-top: 2%;
+        margin-top: 3%;
         margin-left: 2%;
 }
 
@@ -138,7 +143,7 @@ header {
 .logo_inicial {
 display: block;
 margin: auto;
-margin-bottom: 15%;
+margin-bottom: 12%;
 margin-top: 15%;
 }
 
@@ -154,6 +159,7 @@ margin-top: 15%;
     margin: 5%;
     font-size: medium;
     color: white;
+    font-size: 110%;
 }
 
 .ada {
@@ -161,6 +167,8 @@ margin-top: 15%;
     margin: auto;
     text-align: center;
     margin-top: 2%;
+    margin-bottom: -2%;
+    font-size: 10%;
     }
 
 
@@ -233,7 +241,7 @@ body section {
 .display-6 {
 display: block;
 margin-left: 5%;
-margin-top: 5%;
+margin-top: 3%;
 margin: 5%;
 color: white;
 }
