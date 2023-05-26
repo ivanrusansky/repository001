@@ -23,92 +23,92 @@ $blanco: rgb(255, 255, 255);
     @media (max-width:500px){
 
         .navbar{
-              color: $blanco;
-              position: relative;
-                .checkbox{
-                    opacity: 0;
-                    @extend %nav_hamb
-                }
-                .icons{
-                    pointer-events: none;
-                    font-size: 24px;
-                    @extend %nav_hamb
-
-                }
-                .fi-br-menu-burger{
-                    display: none;
-
-                }
-                .fi-br-cross{
-                    display: none;
-
-                }
-                .checkbox:checked ~ .fi-br-menu-burger {
-                    display: none;
-                }
-
-                .checkbox:checked ~ .fi-br-cross{
-                    display: block;
-                }
-                
+            color: white;
+            position: relative;
         }
-            .menu{
-                display:block;
-                width: 180px;
-                position: absolute;
-                top: -300px;
-                right: 0px;
-                transition: 350ms;
-            }
-
-
-
-                @media screen and (max-width: 500px) {
-                    li{
-                       a{
-                        display:block;
-                        padding: 7px 140px;
-                        background-color: $fondo_negro;
-                        text-align: center;
-
-                        }
-                        a:hover{
-                        background-color:$fondo_gris;
-                       }
-                   
-
-                      .checkbox:checked ~ .menu{
-                        top: 48px;
-                   
-                       }
-
-                    }
- 
-                }
-            }
-
-                @media (min-width: 560px) {
-                    .checkbox, .fi-br-menu-burger, .fi-br-cross {
-                        display: none;
-                    }
-                }
-
-                @media (min-width: 1024px){
-                    .menu {
-                        top: 0;
-                        width: unset;
-                        display: flex;
-                        text-align: center;
-                    }
-                    }
-                    
-                    .menu li nav {
-                        padding: 10px 12px 6px;
-                    }
-
-                
-            
         
+        .checkbox, .icons {
+            position: absolute;
+            top: 10px;
+            right: 12px;
+            bottom: 3px;
+            width: 24px;
+            height: 24px;
+        }
+        
+        .icons{
+            pointer-events: none;
+            font-size: 24px;
+        }
+        
+        .checkbox{
+            opacity: 0;
+        }
+        
+        .fi-br-cross{
+            display: none;
+        }
+        
+        .checkbox:checked ~ .fi-br-menu-burger {
+            display: none;
+        }
+        
+        .checkbox:checked ~ .fi-br-cross{
+            display: block;
+        }
+        
+        .menu{
+            display:block;
+            width: 180px;
+            position: absolute;
+            top: -300px;
+            right: 0px;
+        
+            transition: 350ms;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+    
+        .menu li a {
+            display:block;
+            padding: 7px 140px;
+            background-color: rgba(0, 0, 0, 0.904);
+            text-align: center;
+            
+        }
+        
+        .menu li a:hover {
+            background-color: rgba(27, 27, 27, 0.76);
+        }
+        
+        }
+        
+        .checkbox:checked ~ .menu{
+            top: 48px;
+        }
+        
+        @media (min-width: 560px) {
+            .checkbox, .fi-br-menu-burger, .fi-br-cross {
+                display: none;
+            }
+        }
+        
+        @media (min-width: 1024px){
+        .menu {
+            top: 0;
+            width: unset;
+            display: flex;
+            text-align: center;
+        }
+        }
+        
+        .menu li nav {
+            padding: 10px 12px 6px;
+        }
+        
+
+
            
     /* color,tamaño de elementos generales */
 

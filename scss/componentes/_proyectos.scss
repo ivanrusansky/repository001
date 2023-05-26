@@ -1,56 +1,44 @@
 body{
-    .proyecto_main{
-        margin-top: 2%;
-        .proyectos_title{
+       .proyecto_main{
+            margin-top: 2%;
+            .proyectos_title{
             display: none;
+            }
             .row{
                .col{
-
-                  .display-6{
-                    display: block;
-                    margin-left: 5%;
-                    margin-top: 3%;
-                    margin: 5%;
-                    color: white;
-
-                 }
+                   h2{
+                     margin-top: 7%;
+                     margin-bottom: 10%;
+                     justify-content: start;
+                     color: white;
+                     font-size: 250%;
+                    }
 
                  .display-1{
                     text-align: justify;
                     margin: 40px;
                     font-size: 92%;
                     font-weight: lighter;
-                 }
-
-                }
-
-
-            }
-
-        }
-
-        .invert_col{
-            .row{
-                .col{
-                    .display-6{
-                        display: block;
-                        margin-left: 5%;
-                        margin-top: 3%;
-                        margin: 5%;
-                        color: white;
-
-                    }
-
-                    .display-1{
-                        text-align: justify;
-                        margin: 40px;
-                        font-size: 92%;
-                        font-weight: lighter;
                     }
                 }
-
             }
-            
         }
     }
-}
+
+
+                .display-6{
+                    display: block;
+                    margin-left: 5%;
+                    margin-top: 3%;
+                    margin: 40%;
+                    color: white;
+
+                }
+
+                .display-1{
+                    text-align: justify;
+                    margin: 40px;
+                    font-size: 100%;
+                    font-weight: lighter;
+                }
+            

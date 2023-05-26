@@ -5,33 +5,70 @@ body{
 .info_contact{
 
     .frase_contacto{
-text-align: center;
-margin-left: 20%;
-color: white;
-margin-top: 10%;
-margin-bottom: 5%;
+    text-align: center;
+    margin-left: 20%;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 18%;
 
-h1{
-    margin-top: 5%;
-}
+        h1{
+        margin-top: 5%;
+         }
 
-    }
+    } 
 
-    div{
+        div{
 
-        display: block;
-        margin-left: 25%;
+          display: block;
+          margin-left: 25%;
 
-    form{
-        width: 100%;
-        height: 8%;
-        input{
-          width: 100%;
-          height: 150%;
+            form{
+                width: 100%;
+                height: 8%;
+                input{
+                 width: 100%;
+                 height: 150%;
+                }
+
+            }
         }
-
     }
+
 }
-}
+
+@media (max-width:500px) {
+    h1{
+        display:none;
+    }
+
+    input{
+        margin-left: -60%;
+    }
+
+    select{
+        margin-left: -60%;
+    }
+
+    h2{
+        margin-left: -60%;
+    }
+
+    .foot_con{
+        .footer_positions2{
+            div{
+                display: flex;
+
+                img{
+                    margin-right: 83%;
+                    margin-top: 4%;
+
+                }
+
+                h2{
+                    text-align: center;
+                }
+            }
+        }
+    }
 
 }

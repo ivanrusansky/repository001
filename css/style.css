@@ -34,26 +34,31 @@
 
 @media (max-width: 500px) {
   .navbar {
-    color: rgb(255, 255, 255);
+    color: white;
     position: relative;
   }
-  .navbar .checkbox {
-    opacity: 0;
+  .checkbox, .icons {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    bottom: 3px;
+    width: 24px;
+    height: 24px;
   }
-  .navbar .icons {
+  .icons {
     pointer-events: none;
     font-size: 24px;
   }
-  .navbar .fi-br-menu-burger {
+  .checkbox {
+    opacity: 0;
+  }
+  .fi-br-cross {
     display: none;
   }
-  .navbar .fi-br-cross {
+  .checkbox:checked ~ .fi-br-menu-burger {
     display: none;
   }
-  .navbar .checkbox:checked ~ .fi-br-menu-burger {
-    display: none;
-  }
-  .navbar .checkbox:checked ~ .fi-br-cross {
+  .checkbox:checked ~ .fi-br-cross {
     display: block;
   }
   .menu {
@@ -65,20 +70,21 @@
     transition: 350ms;
   }
 }
-@media screen and (max-width: 500px) and (max-width: 500px) {
-  li a {
+@media screen and (max-width: 500px) {
+  .menu li a {
     display: block;
     padding: 7px 140px;
     background-color: rgba(0, 0, 0, 0.904);
     text-align: center;
   }
-  li a:hover {
+  .menu li a:hover {
     background-color: rgba(27, 27, 27, 0.76);
   }
-  li .checkbox:checked ~ .menu {
-    top: 48px;
-  }
 }
+.checkbox:checked ~ .menu {
+  top: 48px;
+}
+
 @media (min-width: 560px) {
   .checkbox, .fi-br-menu-burger, .fi-br-cross {
     display: none;
@@ -316,15 +322,6 @@ body .display-5 .row .col .serv_subs {
 body .display-5 .row .col .text_servfix {
   margin: 40px;
 }
-body .display-5 .row .col .ser_subsfix {
-  display: block;
-  text-align: left;
-  font-size: larger;
-  margin-left: 7%;
-}
-body .display-5 .row .col .text_serv {
-  margin: 40px;
-}
 body section {
   display: flex;
 }
@@ -335,30 +332,32 @@ body .proyecto_main {
 body .proyecto_main .proyectos_title {
   display: none;
 }
-body .proyecto_main .proyectos_title .row .col .display-6 {
-  display: block;
-  margin-left: 5%;
-  margin-top: 3%;
-  margin: 5%;
+body .proyecto_main .row .col h2 {
+  margin-top: 7%;
+  margin-bottom: 10%;
+  justify-content: start;
   color: white;
+  font-size: 250%;
 }
-body .proyecto_main .proyectos_title .row .col .display-1 {
+body .proyecto_main .row .col .display-1 {
   text-align: justify;
   margin: 40px;
   font-size: 92%;
   font-weight: lighter;
 }
-body .proyecto_main .invert_col .row .col .display-6 {
+
+.display-6 {
   display: block;
   margin-left: 5%;
   margin-top: 3%;
-  margin: 5%;
+  margin: 40%;
   color: white;
 }
-body .proyecto_main .invert_col .row .col .display-1 {
+
+.display-1 {
   text-align: justify;
   margin: 40px;
-  font-size: 92%;
+  font-size: 100%;
   font-weight: lighter;
 }
 
@@ -370,7 +369,7 @@ body .info_contact .frase_contacto {
   margin-left: 20%;
   color: white;
   margin-top: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 18%;
 }
 body .info_contact .frase_contacto h1 {
   margin-top: 5%;
@@ -386,6 +385,31 @@ body .info_contact div form {
 body .info_contact div form input {
   width: 100%;
   height: 150%;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    display: none;
+  }
+  input {
+    margin-left: -60%;
+  }
+  select {
+    margin-left: -60%;
+  }
+  h2 {
+    margin-left: -60%;
+  }
+  .foot_con .footer_positions2 div {
+    display: flex;
+  }
+  .foot_con .footer_positions2 div img {
+    margin-right: 83%;
+    margin-top: 4%;
+  }
+  .foot_con .footer_positions2 div h2 {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
