@@ -7,6 +7,21 @@ $blanco: rgb(255, 255, 255);
 
     /*nav general*/
 
+    .navbar{
+        margin-top: 1.5%;
+        ul{
+            li{
+                list-style: none;
+                a{
+                  text-decoration: none;
+                  color: white;
+                }
+            }
+        }
+    }
+
+    @media (max-width:500px){
+
         .navbar{
               color: $blanco;
               position: relative;
@@ -44,6 +59,7 @@ $blanco: rgb(255, 255, 255);
                 top: -300px;
                 right: 0px;
                 transition: 350ms;
+            }
 
 
 
@@ -69,6 +85,7 @@ $blanco: rgb(255, 255, 255);
                     }
  
                 }
+            }
 
                 @media (min-width: 560px) {
                     .checkbox, .fi-br-menu-burger, .fi-br-cross {
@@ -90,8 +107,8 @@ $blanco: rgb(255, 255, 255);
                     }
 
                 
-            }
             
+        
            
     /* color,tamaño de elementos generales */
 
@@ -168,38 +185,47 @@ $blanco: rgb(255, 255, 255);
     /*footer general*/
 
     footer{
-        background-color: map-get($footer,bg-c);
-        justify-content: map-get($footer,jc-c);
-        margin-bottom:map-get($footer, $bg-b);
+        background-color: rgb(241, 240, 221);
+        justify-content: center;
+        margin-bottom:-1%;
 
             .footer_positions{
-                justify-content:center;
-            a{
+                justify-content: center;
+                
                 .thing{
-                    margin: 1%;
+                    margin: 0.5%;
+                    
                 }
-            }
-
-            div{
-
-            .footer_positions2{
-                display: block;
-                margin-left: 40%;
-               }
-               h2{
-
-                a{
-                    text-decoration: none;
-                    color: $blanco;
-                    font-size: small;
-                }
-
-               }
-            
-            }
 
         }
         
+    }
+
+    .footer_positions2{
+        justify-content:center;
+        display: block;
+        
+
+        div{
+
+            display: flex;
+            justify-content: center;
+            img{
+                margin-top: 1.5%;
+                margin-right: 1%;
+            }
+            
+            h2{
+
+              a{
+                 text-decoration: none;
+                 color: black;
+                 font-size: small;
+                } 
+            }
+        }
+
+    
     }
 
 
