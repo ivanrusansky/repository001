@@ -1,45 +1,114 @@
 body{
-       .proyecto_main{
-            margin-top: 2%;
-            .proyectos_title{
-            display: none;
-            }
-            .row{
-               .col{
-                   h2{
-                     margin-top: 7%;
-                     margin-bottom: 10%;
-                     justify-content: start;
-                     color: white;
-                     font-size: 250%;
-                    }
-
-                 .display-1{
-                    text-align: justify;
-                    margin: 40px;
-                    font-size: 92%;
-                    font-weight: lighter;
-                    }
-                }
-            }
-        }
-    }
+    .proyecto_main{
+         margin-top: 2%;
+         .proyectos_title{
+         display: none;
+         }
+         .row{
+            .col{
+                h2{
+                  margin-top: 7%;
+                  margin-bottom: 10%;
+                  justify-content: start;
+                  color: white;
+                  font-size: 250%;
+                 }
 
 
-                .display-6{
-                
-                    display:block;
-                    margin-left: 5%;
-                    margin-top: 3%;
-                    margin: 40%;
-                    color: white;
+              .display-1{
+                 text-align: justify;
+                 margin: 40px;
+                 font-size: 92%;
+                 font-weight: lighter;
+                 }
+             }
+         }
+     }
+ }
 
-                }
 
-                .display-1{
-                    text-align: justify;
-                    margin: 40px;
-                    font-size: 100%;
-                    font-weight: lighter;
-                }
-            
+
+
+             .display-6{
+                 display: block;
+                 margin-left: 5%;
+                 margin-top: 3%;
+                 margin: 40%;
+                 color: white;
+
+
+             }
+
+
+             .display-1{
+                 text-align: justify;
+                 margin: 40px;
+                 font-size: 100%;
+                 font-weight: lighter;
+             }
+
+
+
+
+@media (min-width: 700px){
+
+
+ .anular_bigscreen{
+     display: none;
+ }
+
+
+ .marx_col{
+     display:flex
+ }
+
+
+ .carousel_marx{
+    
+     margin-top: 0.1%;
+     width: 100%;
+ }
+
+
+ .carousel_ama{
+     width: 102%;
+ }
+
+
+ .carousel_casa{
+     width: 101.3%;
+     margin-left: -1.5%;
+ }
+
+
+ .mod_col{
+     width: 50%;
+ }
+
+
+ .marx_fix{
+     display: inline;
+     font-size: 50%;
+     width: 30%;
+ }
+
+
+}      
+
+
+
+
+@media (max-width: 500px){
+
+
+.replace{
+ text-align: center;
+ margin-top: 10%;
+ color: white !important;
+ font-size: 260%;
+ font-weight: lighter;
+
+
+}
+}
+

@@ -29,13 +29,15 @@
 }
 .navbar ul li a {
   text-decoration: none;
-  color: white;
+  font-size: 14.5px;
 }
 
 @media (max-width: 500px) {
   .navbar {
     color: white;
     position: relative;
+    margin-top: -5%;
+    margin-right: 2%;
   }
   .checkbox, .icons {
     position: absolute;
@@ -100,6 +102,20 @@
 }
 .menu li nav {
   padding: 10px 12px 6px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+:hover a {
+  color: #f7f7f7;
+}
+:hover a:hover {
+  box-shadow: 0 5.5px 0 0 rgba(146, 132, 104, 0.9647058824);
+  font-size: 15.5px;
 }
 
 /* color,tamaño de elementos generales */
@@ -215,6 +231,12 @@ footer .footer_positions .thing {
     width: 100%;
     height: 100%;
   }
+  footer section div img {
+    display: none;
+  }
+  footer section div h2 {
+    margin-left: 3%;
+  }
 }
 @media screen and (max-width: 500px) {
   .ada_img {
@@ -303,6 +325,14 @@ body main .display-2 {
   font-size: 95%;
 }
 
+.ada {
+  color: white;
+  font-weight: lighter;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 280%;
+}
+
 body .display-5 {
   display: flex;
   text-align: justify;
@@ -317,7 +347,9 @@ body .display-5 .row .col .serv_subs {
   text-align: left;
   font-size: larger;
   position: relative;
-  left: 14%;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 8%;
 }
 body .display-5 .row .col .text_servfix {
   margin: 40px;
@@ -326,6 +358,13 @@ body section {
   display: flex;
 }
 
+@media (max-width: 500px) {
+  .serv_subs {
+    margin-left: 3%;
+    margin-top: 25%;
+    margin-bottom: 10%;
+  }
+}
 body .proyecto_main {
   margin-top: 2%;
 }
@@ -361,6 +400,42 @@ body .proyecto_main .row .col .display-1 {
   font-weight: lighter;
 }
 
+@media (min-width: 700px) {
+  .anular_bigscreen {
+    display: none;
+  }
+  .marx_col {
+    display: flex;
+  }
+  .carousel_marx {
+    margin-top: 0.1%;
+    width: 100%;
+  }
+  .carousel_ama {
+    width: 102%;
+  }
+  .carousel_casa {
+    width: 101.3%;
+    margin-left: -1.5%;
+  }
+  .mod_col {
+    width: 50%;
+  }
+  .marx_fix {
+    display: inline;
+    font-size: 50%;
+    width: 30%;
+  }
+}
+@media (max-width: 500px) {
+  .replace {
+    text-align: center;
+    margin-top: 10%;
+    color: white !important;
+    font-size: 260%;
+    font-weight: lighter;
+  }
+}
 body {
   background-color: black;
 }
@@ -399,16 +474,6 @@ body .info_contact div form input {
   }
   h2 {
     margin-left: -60%;
-  }
-  .foot_con .footer_positions2 div {
-    display: flex;
-  }
-  .foot_con .footer_positions2 div img {
-    margin-right: 83%;
-    margin-top: 4%;
-  }
-  .foot_con .footer_positions2 div h2 {
-    text-align: center;
   }
 }
 
