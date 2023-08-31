@@ -1,0 +1,43 @@
+.fondo_index{
+    background-image:url(../img/fondoindex/fondoindex.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    header{
+        .iso{
+         margin-top: 2.5%;
+         margin-left: 3%;
+
+
+        }
+    }
+
+
+    main{
+
+
+        .index_title{
+            display: none;
+        }
+       
+        .logo_inicial{
+            display: block;
+            margin: auto;
+            margin-bottom: 12%;
+            margin-top: 15%;
+
+
+        }
+       
+    }
+}
+
+
+@media (max-width: 600px){
+    main{
+        margin-bottom: 45%;
+        .logo_inicial{
+            margin-top: 40% !important;
+        }
+    }
+}
+

@@ -1,0 +1,86 @@
+body{
+    .display-5{
+        display: flex;
+        text-align: justify;
+        margin-top: 50px;
+        font-size: 85%;
+        .serv_n{
+            display: none;
+
+
+        }
+        .row{
+            .col{
+
+                align-content: center;
+                .serv_subs{
+                    display: block;
+                    text-align:left;
+                    position:relative;
+                    font-weight:lighter;
+                    text-align: center;
+                    margin-bottom: 8%;
+                    margin-top: 12%;
+                    text-size-adjust: 8%;
+
+
+                }
+
+
+                .text_servfix{
+                    margin: 40px;
+
+
+                }
+               
+            }
+        }
+
+
+    }
+    section{
+        display: flex;
+    }
+}
+
+.col{
+    display: flex;
+    align-content: center;
+    width: 100%;
+}
+
+#coltwo{
+    display: block;
+}
+
+
+
+
+
+
+.img_serv{
+    display: block;
+    display: inline-block;
+}
+
+
+@media (max-width:500px){
+
+
+    .serv_subs{
+        margin-left: 3%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+    }
+    .imgresponsive{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+    .imgresponsive{
+        display: none;
+    }
+    
+}
