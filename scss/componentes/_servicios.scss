@@ -11,15 +11,17 @@ body{
         }
         .row{
             .col{
+
+                align-content: center;
                 .serv_subs{
                     display: block;
                     text-align:left;
-                    font-size: larger;
                     position:relative;
-                    font-weight: lighter;
+                    font-weight:lighter;
                     text-align: center;
                     margin-bottom: 8%;
-                   
+                    margin-top: 12%;
+                    text-size-adjust: 8%;
 
 
                 }
@@ -41,6 +43,26 @@ body{
     }
 }
 
+.col{
+    display: flex;
+    align-content: center;
+    width: 100%;
+}
+
+#coltwo{
+    display: block;
+}
+
+
+
+
+
+
+.img_serv{
+    display: block;
+    display: inline-block;
+}
+
 
 @media (max-width:500px){
 
@@ -50,4 +72,15 @@ body{
         margin-top: 25%;
         margin-bottom: 10%;
     }
+    .imgresponsive{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+    .imgresponsive{
+        display: none;
+    }
+    
 }
