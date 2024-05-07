@@ -1,55 +1,106 @@
-body{
-    .display-5{
+body {
+    .display-5 {
         display: flex;
         text-align: justify;
-        margin-top: 50px;
+        margin-top: -10px;
         font-size: 85%;
-        .serv_n{
+
+        .serv_n {
             display: none;
 
 
         }
-        .row{
-            .col{
+
+
+
+        .row {
+            .col {
 
                 align-content: center;
-                .serv_subs{
+
+                .serv_subs {
                     display: block;
-                    text-align:left;
-                    position:relative;
-                    font-weight:lighter;
+                    text-align: left;
+                    position: relative;
+                    font-weight: lighter;
                     text-align: center;
-                    margin-bottom: 8%;
-                    margin-top: 12%;
+                    margin-bottom: 2%;
+                    margin-top: 6%;
+                    text-size-adjust: 8%;
+
+
+                }
+
+                .serv_subsarc {
+                    display: block;
+                    text-align: left;
+                    position: relative;
+                    font-weight: lighter;
+                    text-align: center;
+                    margin: 0%;
+                    margin-bottom: 2%;
+                    margin-top: 22%;
+                    text-size-adjust: 8%;
+
+
+                }
+
+                .serv_subsarc2 {
+                    display: block;
+                    text-align: left;
+                    position: relative;
+                    font-weight: lighter;
+                    text-align: center;
+                    margin: 0%;
+                    margin-bottom: 2%;
+                    margin-top: -3% !important;
+                    text-size-adjust: 8%;
+
+
+                }
+
+                .serv_subsarc3 {
+                    display: block;
+                    text-align: left;
+                    position: relative;
+                    font-weight: lighter;
+                    text-align: center;
+                    margin: 0%;
+                    margin-bottom: 5%;
+                    margin-top: 11% !important;
                     text-size-adjust: 8%;
 
 
                 }
 
 
-                .text_servfix{
+
+
+                .text_servfix {
                     margin: 40px;
+                    line-height: 180%;
 
 
                 }
-               
+
             }
         }
 
 
     }
-    section{
+
+    section {
         display: flex;
     }
 }
 
-.col{
+.col {
     display: flex;
     align-content: center;
     width: 100%;
 }
 
-#coltwo{
+#coltwo {
     display: block;
 }
 
@@ -58,29 +109,73 @@ body{
 
 
 
-.img_serv{
+.img_serv {
     display: block;
     display: inline-block;
+
 }
 
 
-@media (max-width:500px){
+@media (max-width:500px) {
+
+    .bodyservicios {
+
+        .casainterior {
+            margin-top: 1.7% !important;
+        }
 
 
-    .serv_subs{
-        margin-left: 3%;
-        margin-top: 25%;
-        margin-bottom: 10%;
+        .serv_subs {
+            margin-top: 15% !important;
+            margin-bottom: 15% !important;
+        }
+
+        .serv_subsarc {
+            margin-left: 3%;
+            margin-top: 15% !important;
+            margin-bottom: 15% !important;
+        }
+
+        .serv_subsarc3 {
+            margin-left: 3%;
+            margin-top: 30%;
+            margin-bottom: 15%;
+        }
+
+        .mob {
+            margin-bottom: 10%;
+        }
+
+        .imgresponsive {
+            width: 100%;
+            height: auto;
+        }
+
+        .end {
+            margin-bottom: -30%;
+        }
+
+
+        .col {
+            display: none;
+        }
+
     }
-    .imgresponsive{
-        width: 100%;
-        height: auto;
-    }
+
+
 }
 
-@media (min-width: 1000px) {
-    .imgresponsive{
+@media (min-width: 501px) {
+    .imgresponsive {
         display: none;
     }
-    
+
+    .casainterior {
+        display: none;
+    }
+
+}
+
+.footerservicios {
+    margin-top: -6%;
 }

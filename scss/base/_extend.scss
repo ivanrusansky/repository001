@@ -1,4 +1,4 @@
-%nav_hamb{
+%nav_hamb {
     position: absolute;
     top: 10px;
     right: 12px;
@@ -8,17 +8,18 @@
 }
 
 
-.navbar{
+.navbar {
     color: white;
     position: relative;
-      .checkbox{
-          opacity: 0;
-          @extend %nav_hamb
-      }
-      .icons{
-          pointer-events: none;
-          font-size: 24px;
-          @extend %nav_hamb
 
-      }
+    .checkbox {
+        opacity: 0;
+        @extend %nav_hamb
+    }
+
+    .icons {
+        pointer-events: none;
+        font-size: 24px;
+        @extend %nav_hamb
+    }
 }
