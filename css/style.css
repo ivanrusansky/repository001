@@ -238,10 +238,13 @@ footer .footer_positions .thing {
   footer {
     width: 100%;
     height: 100%;
-    margin-bottom: 0% !important;
   }
   footer section .thing {
-    margin-left: 15% !important;
+    margin-left: 17% !important;
+  }
+  footer section .thing img {
+    width: 25px;
+    height: 25px;
   }
   footer .footer_positions2 {
     display: none;
