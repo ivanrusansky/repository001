@@ -82,8 +82,8 @@ a {
 
 @media (max-width: 1023px) {
   .offcanvas {
-    backdrop-filter: blur(10px) !important;
-    background-color: rgba(43, 43, 43, 0.342);
+    background-color: rgba(65, 65, 65, 0.342);
+    backdrop-filter: blur(20px) !important;
   }
   .navbar-nav {
     margin-top: -25%;
