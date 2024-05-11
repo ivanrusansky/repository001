@@ -41,9 +41,9 @@ $blanco: rgb(255, 255, 255);
 
     // Estilos para el botón de la barra de navegación
     .navbar-toggler {
-        color: rgba(255, 255, 255, 0); // Color del texto blanco
-        background-color: transparent; // Fondo transparente para que se vea el color de fondo de la barra de navegación
-        border: none; // Quita el borde del botón
+        color: rgba(255, 255, 255, 0);
+        background-color: transparent;
+        border: none;
     }
 
     .navbar-toggler-icon {
@@ -227,7 +227,7 @@ header {
 footer {
     background-color: rgba(241, 240, 221, 0.596);
     justify-content: center;
-    height: 55px !important;
+    height: 46px !important;
 
 
     .footer_positions {
@@ -236,8 +236,8 @@ footer {
         margin-bottom: -2% !important;
 
         .thing {
-            margin-top: 2% !important;
-            margin-bottom: 2% !important;
+            margin-top: 2%;
+            margin-bottom: 2%;
             margin: 1.5%;
         }
     }
@@ -310,16 +310,16 @@ footer {
             .thing {
                 margin-left: 17% !important;
 
-                img{
+                img {
 
-                    width: 25px;
-                    height: 25px;
+                    width: 26px;
+                    height: 26px;
                 }
             }
 
         }
 
-    
+
 
         .footer_positions2 {
             display: none;

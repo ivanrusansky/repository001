@@ -181,7 +181,7 @@ header {
 footer {
   background-color: rgba(241, 240, 221, 0.596);
   justify-content: center;
-  height: 55px !important;
+  height: 46px !important;
 }
 footer .footer_positions {
   margin-left: 6%;
@@ -189,8 +189,8 @@ footer .footer_positions {
   margin-bottom: -2% !important;
 }
 footer .footer_positions .thing {
-  margin-top: 2% !important;
-  margin-bottom: 2% !important;
+  margin-top: 2%;
+  margin-bottom: 2%;
   margin: 1.5%;
 }
 
@@ -243,8 +243,8 @@ footer .footer_positions .thing {
     margin-left: 17% !important;
   }
   footer section .thing img {
-    width: 25px;
-    height: 25px;
+    width: 26px;
+    height: 26px;
   }
   footer .footer_positions2 {
     display: none;
