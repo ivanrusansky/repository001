@@ -236,8 +236,7 @@ footer .footer_positions .thing {
 }
 @media screen and (max-width: 600px) {
   footer {
-    width: 100%;
-    height: 100%;
+    height: 50px !important;
   }
   footer section .thing {
     margin-left: 17% !important;
@@ -537,6 +536,7 @@ body section {
 }
 .bodyproyectos .proyecto_main .row .col .display-6 {
   text-align: center;
+  font-weight: lighter !important;
 }
 
 @media (min-width: 501px) {
