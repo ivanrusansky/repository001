@@ -89,6 +89,8 @@ a {
 
 @media (max-width: 1023px) {
 
+
+
     .offcanvas {
         background-color: rgb(10, 10, 10);
     }
@@ -110,6 +112,7 @@ a {
     }
 
     .btn-close {
+        margin-top: 2px !important;
         width: 15px !important;
         height: 15px !important;
         color: rgb(233, 233, 233) !important;
@@ -224,18 +227,18 @@ header {
 
 
 footer {
-    background-color: rgba(241, 240, 221, 0.596);
+    background-color: rgba(241, 233, 221, 0.596);
     justify-content: center;
-    height: 46px !important;
+    height: 100px;
 
 
     .footer_positions {
         margin-left: 6%;
-        margin-top: 10%;
+        margin-top: 13%;
         margin-bottom: -2% !important;
 
         .thing {
-            margin-top: 2%;
+            margin-top: 3% !important;
             margin-bottom: 2%;
             margin: 1.5%;
         }
